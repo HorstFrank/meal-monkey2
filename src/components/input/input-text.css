@@ -1,22 +1,18 @@
 .input-name {
   border-radius: 25px;
   height: 50px;
-  /* padding-left: 10px; */
   background-color: #f2f2f2;
   color: black;
   border: none;
   width: 300px;
   padding-left: 2em;
-  /* height: 20px; */
-  /* pointer-events: none; */
 }
 
 .input-name:focus {
   outline: none;
 }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
+.input-name::placeholder {
   color: black;
-  opacity: 0.3; /* Firefox */
+  opacity: 0.3;
 }
