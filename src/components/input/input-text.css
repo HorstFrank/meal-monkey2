@@ -8,6 +8,11 @@
   width: 300px;
   padding-left: 2em;
   /* height: 20px; */
+  /* pointer-events: none; */
+}
+
+.input-name:focus {
+  outline: none;
 }
 
 ::placeholder {
