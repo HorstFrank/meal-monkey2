@@ -1,0 +1,17 @@
+.input-name {
+  border-radius: 25px;
+  height: 50px;
+  /* padding-left: 10px; */
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  width: 300px;
+  padding-left: 2em;
+  /* height: 20px; */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 0.3; /* Firefox */
+}
