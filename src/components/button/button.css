@@ -1,8 +1,19 @@
 .btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
+  border-radius: 2em;
+  font-size: 0.8rem;
+  font-family: "Metropolis", Arial, Helvetica, sans-serif;
+  padding: 1em 5em;
+  /* width: 200px; */
+}
+
+.btn-solid {
   color: white;
-  background: #016b6b;
+  background: #fc6011;
   border: none;
-  padding: 10px 20px;
+}
+
+.btn-outline {
+  color: #fc6011;
+  border: 2px solid #fc6011;
+  background: none;
 }
