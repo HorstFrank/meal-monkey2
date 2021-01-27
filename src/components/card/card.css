@@ -8,8 +8,8 @@
 }
 
 .card-image {
-  object-fit: cover;
-  object-position: center;
+  object-fit: cover; /*  !!!!!!!!!!!!!!!!!!  */
+  object-position: center; /*  !!!!!!!!!!!!!!!!!!  */
   width: 100px;
   height: 100px;
   border-radius: 15%;
@@ -26,13 +26,21 @@
 .card-container {
   /* display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(10,auto); */
+  grid-template-columns: repeat(10,auto); 
+  grid-auto-flow: columne;
+  column-gap- 10px;
+  */
 
   display: flex;
   justify-content: flex-start;
-  max-width: 90vw;
+  /* max-width: 90vw; */
 
-  overflow-x: scroll;
+  overflow-x: auto;
 
   /* background-color: brown; */
+}
+
+.card-container::-webkit-scrollbar {
+  /*  !!!!!!!!!!!!!!!!!!  */
+  /* display: none; */
 }

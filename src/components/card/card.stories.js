@@ -6,10 +6,11 @@ import cardContainer from "./card-container.html";
 
 export default {
   title: "Components/Card",
-  parameters: { layout: "fullscreen" },
+  parameters: { layout: "centered" },
 };
 
 export const MealOne = () => cardMealOne;
 export const MealTwo = () => cardMealTwo;
 export const cardCont = () => cardContainer;
 // export const withOutline = () => buttonOutline;
+cardCont.parameters =  { layout: "fullscreen" } ;
