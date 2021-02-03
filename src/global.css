@@ -11,11 +11,10 @@
 */
 @font-face {
   font-family: "Metropolis";
-  src: url("./assets/fonts/metropolis/metropolis.woff2", format("woff2"),
-  url("./assets/fonts/metropolis/metropolis.woff", format("woff"),
-  url("./assets/fonts/metropolis/metropolis.ttf", format("truetype"); 
+  src: url("./assets/fonts/metropolis/metropolis.woff2"), format("woff2"),
+    url("./assets/fonts/metropolis/metropolis.woff"), format("woff"),
+    url("./assets/fonts/metropolis/metropolis.ttf"), format("truetype");
 }
-
 
 :root {
   --color-main: #fc6011;
