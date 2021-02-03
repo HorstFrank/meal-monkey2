@@ -1,15 +1,58 @@
 .welcome {
+  background: url("../../assets/Backgroundicons.svg");
   height: 100vh;
   width: 100vw;
-  background-color: #1fc8db;
-  background-image: linear-gradient(
-    141deg,
-    #9fb8ad 0%,
-    #1fc8db 51%,
-    #2cb5e8 75%
-  );
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  /* display: flex;
   justify-content: center;
+  align-items: center; */
+
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  place-items: center;
+
+  color: var(--color-font-primary);
+}
+
+.logo-title-group {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  /* display: grid; */
+  /* justify-content: center;
+  align-items: center; */
+  /* place-items: center; */
+  text-align: center;
+}
+
+.logo-name-color {
+  color: var(--color-main);
+}
+
+/* --color-font-primary: var(--color-font-primary);
+--color-font-placeholder: #b6b7b7;
+--color-light: #f2f2f2;
+--color-facebook: #367fc0;
+--color-google-plus: #dd4b39; */
+
+.logo-image {
+  width: 105px;
+}
+
+.logotitle {
+  font-family: var(--font-logo);
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15px;
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  color: var(--color-font-primary);
+  font-family: var(--font-subtitle);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-top: 7px;
 }

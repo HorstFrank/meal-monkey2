@@ -1,4 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap"); */
+/*
+      www.OnlineWebFonts.Com 
+      You must credit the author Copy this link on your web 
+      <div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
+      OR
+      <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+       <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+        <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+*/
+@font-face {
+  font-family: "Metropolis";
+  src: url("./assets/fonts/metropolis/metropolis.woff2", format("woff2"),
+  url("./assets/fonts/metropolis/metropolis.woff", format("woff"),
+  url("./assets/fonts/metropolis/metropolis.ttf", format("truetype"); 
+}
+
+
+:root {
+  --color-main: #fc6011;
+  /* --color-main: #11fc38; */
+  --color-font-primary: #4a4b4d;
+  --color-font-placeholder: #b6b7b7;
+  --color-light: #f2f2f2;
+  --color-facebook: #367fc0;
+  --color-google-plus: #dd4b39;
+
+  --font-logo: "Metropolis", Arial, Helvetica, sans-serif;
+  --font-logo-subtitle: "Cabin", Arial, Helvetica, sans-serif;
+  --font-main: "Cabin", Arial, Helvetica, sans-serif;
+}
+
+.color-logo-main {
+  fill: var(--color-font-primary);
+}
+.color-logo-secondary {
+  fill: var(--color-main);
+}
 
 *,
 *::after,

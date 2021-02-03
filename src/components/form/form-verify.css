@@ -1,0 +1,13 @@
+.otp-container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.otp-element {
+  width: 2.6rem;
+}
+.otp-element > otp-element {
+  margin-left: 0.1em;
+}
