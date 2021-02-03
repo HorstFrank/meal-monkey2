@@ -8,12 +8,12 @@
 
 .btn-solid {
   color: white;
-  background: #fc6011;
+  background: var(--color-main);
   border: none;
 }
 
 .btn-outline {
-  color: #fc6011;
-  border: 2px solid #fc6011;
+  color: var(--color-main);
+  border: 2px solid var(--color-main);
   background: none;
 }
