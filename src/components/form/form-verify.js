@@ -1,8 +1,14 @@
+import {createElement} from "../utils/createElement.js";
+
 function createOTPinputElement () {
 
-    const inputpswd = document.createElement('input');
-    inputpswd.type = 'password';
-    inputpswd.classList.add('otp-element');
+    const inputpswd = createElement('input',{
+        type: 'password',
+        placeholder: '*',
+        className: 'otp-element',
+    });
+    // inputpswd.type = 'password';
+    // inputpswd.classList.add('otp-element');
     return inputpswd;
 
 }
