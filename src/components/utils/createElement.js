@@ -1,8 +1,10 @@
 export function createElement (tagName,props) {
   
   const element = document.createElement(tagName);
-  Object.assign(element,props);
+  const {children,...other} = props;
+  Object.assign(element,other);
   
+  if (children) element.append(...children)
   // console.log(props) 
 
   return element;
